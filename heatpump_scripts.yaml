@@ -2,7 +2,7 @@ script:
   hp_cool_18:
     alias: Heat Pump cool_18
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -11,7 +11,7 @@ script:
   hp_cool_19:
     alias: Heat Pump cool_19
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -20,7 +20,7 @@ script:
   hp_cool_20:
     alias: Heat Pump cool_20
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -29,7 +29,7 @@ script:
   hp_cool_21:
     alias: Heat Pump cool_21
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -38,7 +38,7 @@ script:
   hp_cool_22:
     alias: Heat Pump cool_22
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -47,7 +47,7 @@ script:
   hp_cool_23:
     alias: Heat Pump cool_23
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -56,7 +56,7 @@ script:
   hp_cool_24:
     alias: Heat Pump cool_24
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -65,7 +65,7 @@ script:
   hp_cool_25:
     alias: Heat Pump cool_25
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -74,7 +74,7 @@ script:
   hp_cool_26:
     alias: Heat Pump cool_26
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -83,7 +83,7 @@ script:
   hp_heat_18:
     alias: Heat Pump heat_18
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -92,7 +92,7 @@ script:
   hp_heat_19:
     alias: Heat Pump heat_19
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -101,7 +101,7 @@ script:
   hp_heat_20:
     alias: Heat Pump heat_20
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -110,7 +110,7 @@ script:
   hp_heat_21:
     alias: Heat Pump heat_21
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -119,7 +119,7 @@ script:
   hp_heat_22:
     alias: Heat Pump heat_22
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -128,7 +128,7 @@ script:
   hp_heat_23:
     alias: Heat Pump heat_23
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -137,7 +137,7 @@ script:
   hp_heat_24:
     alias: Heat Pump heat_24
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -146,7 +146,7 @@ script:
   hp_heat_25:
     alias: Heat Pump heat_25
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -155,7 +155,7 @@ script:
   hp_heat_26:
     alias: Heat Pump heat_26
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
@@ -164,9 +164,9 @@ script:
   hp_off:
     alias: Heat Pump off
     sequence:
-      - action: mqtt.publish
+      - service: mqtt.publish
         data:
           topic: zigbee2mqtt/Lodge IR Blaster/set
           payload: >
-            {"ir_code_to_send":"FFkCWQKuAJIB9wiID64ATAfhAUwHy2AHDw4MAAFZAgABDgySAVkCywBABwJMBwAgAwfhAYgP4QGtA0AvCwABrQIAAQ4MRwGID0ADA1kCTAdAF0ArAssArSAjCK0C4QEODAABWWAHQCMB4QHAAwtMB2wATAeSAYgPAAHAGx1BUuEB9wiuAEcBrQNaOWwAbRRHAVkCbAD9HuEBiA9AA4AvBogPbAAUL0cgB0APBWwArgBsAIBDA8sAiA9AEwWSAf0eewCAEwnhAYgPkgGID5IB"}
+            {"ir_code_to_send":"B2ERYRELAocG4AUDwAFAFwFSAoAD4AMBQBdAA0AbQAfgBwFAF0ADQBvgEwPgAwFAL0AD4AcBwD/AAUAPwAFAL0AD4AsBQCfAA+ADI0ALQAPgAwFAJ8ABwAtAB0ADQCsHWxZhEWERCwJAD+ADA0AbQANAE0AH4AcDQBdAA0AXwAfAAUATwANAG+ATA+ADAcAz4AcHwD/AF0APwAtAAcAL4AcHQCfAA+ADG0AB4AMPQAtAJ0AHQAPACwuHBgsChwYLAlICCwI="}
 
