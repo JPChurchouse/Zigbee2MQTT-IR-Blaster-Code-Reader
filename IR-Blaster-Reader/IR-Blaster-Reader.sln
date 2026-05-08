@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IR-Blaster-Reader", "IR-Blaster-Reader.csproj", "{C71E7499-9589-477E-9D0C-B2868FFC6658}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C71E7499-9589-477E-9D0C-B2868FFC6658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71E7499-9589-477E-9D0C-B2868FFC6658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71E7499-9589-477E-9D0C-B2868FFC6658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71E7499-9589-477E-9D0C-B2868FFC6658}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAFBF074-C0B7-4015-9ED5-EF5E75AE4460}
+	EndGlobalSection
+EndGlobal
